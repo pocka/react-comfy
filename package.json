@@ -1,0 +1,32 @@
+{
+  "name": "react-comfy",
+  "private": true,
+  "devDependencies": {
+    "husky": "^3.0.4",
+    "lerna": "^3.16.4",
+    "lint-staged": "^9.2.2",
+    "prettier": "^1.18.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "prettier --write",
+      "git add"
+    ],
+    "*.{json,yml,md,html}": [
+      "prettier --write",
+      "git add"
+    ]
+  },
+  "prettier": {
+    "semi": false,
+    "singleQuote": true
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "@react-comfy/props",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": {
+    "email": "pockawoooh@gmail.com",
+    "name": "Shota Fuji"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pocka/react-comfy",
+    "directory": "packages/props"
+  },
+  "main": "./index.js",
+  "types": "./index.d.ts",
+  "files": [
+    "/index.js",
+    "/index.d.ts"
+  ],
+  "scripts": {
+    "test": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/react": "^16.9.2",
+    "typescript": "^3.5.3"
+  },
+  "peerDependencies": {
+    "react": "^16.8.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
