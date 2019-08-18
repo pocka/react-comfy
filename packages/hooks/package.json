@@ -11,6 +11,10 @@
     "url": "https://github.com/pocka/react-comfy",
     "directory": "packages/hooks"
   },
+  "keywords": [
+    "react",
+    "hooks"
+  ],
   "sideEffects": false,
   "main": "./cjs/index.js",
   "module": "./esm/index.js",

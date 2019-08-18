@@ -11,6 +11,12 @@
     "url": "https://github.com/pocka/react-comfy",
     "directory": "packages/props"
   },
+  "keywords": [
+    "react",
+    "typescript",
+    "props"
+  ],
+  "sideEffects": false,
   "main": "./index.js",
   "types": "./index.d.ts",
   "files": [
