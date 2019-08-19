@@ -2,6 +2,7 @@
   "name": "react-comfy",
   "private": true,
   "devDependencies": {
+    "docsify-cli": "^4.3.0",
     "husky": "^3.0.4",
     "lerna": "^3.16.4",
     "lint-staged": "^9.2.2",
@@ -9,7 +10,8 @@
   },
   "scripts": {
     "build": "lerna run build --stream",
-    "test": "lerna run test --stream"
+    "test": "lerna run test --stream",
+    "docs": "docsify serve ./docs"
   },
   "workspaces": [
     "packages/*"
